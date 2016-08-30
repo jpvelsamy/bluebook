@@ -1,0 +1,56 @@
+{
+  "spec.name": "LED TV",
+  "high.watermark": ".8",
+  "low.watermark": "0.6",
+  "spec.keywords":["features","specification","product feature", "product specification","product details","details"],
+  "category.keywords": ["l.e.d", "led", "t.v", "tv", "led tv", "l.e.d t.v", "hd", "hd ready", "full", "ultra","smart"],
+  "brand.keywords":["onida","micromax","videocon","sony","samsung","l.g","lg","philips","vu","weston","intex","haier","bpl"],
+  "product.spec.general": {
+    "name":["name","title"],
+    "brand": ["brand","product brand"],
+    "model": ["model","model no","model number","name","model name"],
+    "description": ["desc","description"],
+    "package":["In the box","sales package","out of the box"],
+    "age":["launch date","date of launch","launch year"],
+    "price":["with exchange","without exchange"]
+  },
+  "product.spec.detail":{
+  	"hd-ready":["HD Ready, 1366 x 768"],
+  	"full-hd":["1920*1080"],
+  	"ultra-hd":["3840  × 2160"],
+    "usb":["usb 2.0","usb 3.0","usb","ports"],
+    "mhl":["mhl","smart sharing","mhl cable","Screen Mirroring"],
+    "hdmi":["hdmi","hdmi connectivity","hdmi ports"],
+    "vga":["vga","vga port"],
+    "screen":["Screen Type","t.v type","tv type","led display"],
+    "video.features":["refresh rate","display size"],
+    "headphone":["headphone jack"],
+    "audio.power":["speakers","watts pmpo","audio features"],
+    "pc-audio connectivity":["pc audio input"],
+    "smart":["smart tv","android tv","android","kitkat","samsung tizen","lg webos"],
+    "operatingsystem":["kitkat"],
+    "processing-power":["A7 Quad Core","CPU","RAM"],    
+    "flash":["flash storage","data storage","storage","flash"],    
+    "internet":["browsing","applications","entertainment","browser"," youtube"],
+    "ethernet":["RJ45","ethernet cable","lan support"],
+    "wifi":["wi-fi"],
+    "3d":["3d"],
+    "remote":["remote","remote control","qwerty","qwerty keyboard","wireless keyboard"],
+    "dimensions":["width","height","breadth","depth","width*height*depth","w*h*d","dimension"],
+    "weight":["weight","net weight","stand"],
+    "power":["power","power consumption","power supply"],
+    "warranty":["On-site Service","Authorized Service Center","1 Year Warranty"]
+  },
+  "review.detail":{
+  	"rating":["average rating"],
+  	"star":["5 star","4 star","3 star","2 star","1 star"]  	
+  },
+  "category.identification.rules.traits":{
+  	"content.elements":["title","brand","itemprop.name"],
+  	"spec.elements":["brand.keywords","category.keywords"]  	
+  },
+  "feature.zone.marking":{
+  	"above.content.traits":["title","itemprop.name"],
+  	"below.content.traits":["review","feedback","customer reviews","rating"]
+  }
+}
